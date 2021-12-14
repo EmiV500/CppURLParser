@@ -1,7 +1,7 @@
 /*
 Emily Vorng - CSCI151
 URL Parser
-Prompts the user for a URL and breaks and prints it out three parts
+Prompts the user for a URL then breaks and prints it out three parts
 in order of scheme, authority, and path
 */
 
@@ -16,7 +16,7 @@ int main() {
     std::string url;
     std::cin >> url;
 
-    // Declairs string variables for all the parts
+    // Declares string variables for all of the URL parts
     std::string scheme;
     std::string authority;
     std::string path;
